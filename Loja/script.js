@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       produtos = data;
-      const produtosContainer =
-        document.getElementsByTagName("produtos-container");
+      const produtosContainer = 
+        document.getElementById("produtos-container");
 
       produtos.map((produto, index) => {
         const card = document.createElement("div");
@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const cardTitle = document.createElement("h5");
         cardTitle.className = "card-title";
-        cardTitle.textContent = produto.descricao;
+        cardTitle.textContent = produto.nome;
 
         const cardText = document.createElement("p");
         cardText.className = "card-text";
-        cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
+        cardText.textContent = "Preço: $" + produto.valor.toFixed(2);
 
         const btnAdicionarAoCarrinho = document.createElement("a");
         btnAdicionarAoCarrinho.href = "#";
