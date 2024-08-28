@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "descricao": "Produto 1",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
-    "preco": 10.0
+    "status": false,
+    "nome": "Playstation 5",
+    "valor": 10.0,
+    "quantidade": 5,
+    "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
   },
   {
     "id": 2,
-    "descricao": "Produto 2",
-    "imagem": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
-    "preco": 20.0
+    "status": false,
+    "nome": "Nintendo Switch",
+    "valor": 20.0,
+    "quantidade": 8,
+    "imagem": "https://bebgames.com.br/wp-content/uploads/2022/07/image-removebg-preview-41.png"
   },
   {
     "id": 3,
-    "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "preco": 30.0
+    "status": false,
+    "nome": "Meta Quest 2",
+    "valor": 30.0,
+    "quantidade": 6,
+    "imagem": "https://i.ebayimg.com/images/g/xrcAAOSwmhphZGzf/s-l500.png"
   }
 ]
