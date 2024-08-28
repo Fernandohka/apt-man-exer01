@@ -4,7 +4,7 @@ Simulacao de carrinho de compras com localStorage
 
 # 1 - Criar um showroom - 2,5ptos (0,83 +/- cada)
 
-- <del>Elaborar um json contendo os mesmo produtos da loja porem aqui de uma forma mais demonstrativa, dentro do objeto conter status, nome do produto, valor , quantidade e imagem (a imagem pode ser uma url da web ou imagem baixada no projeto).</del>
+- Elaborar um json contendo os mesmo produtos da loja porem aqui de uma forma mais demonstrativa, dentro do objeto conter status, nome do produto, valor , quantidade e imagem (a imagem pode ser uma url da web ou imagem baixada no projeto).
 - Caso o status seja true, uma bolinha vermelha deve aparecer no card do produto caso false uma bolinha verde, isso indica que o produto esta a venda ou nao.
 - Incluir no projeto a fonte Robotoo para todo o sistema, o fonte deve ser importada do google fonts.
 
@@ -16,8 +16,8 @@ Simulacao de carrinho de compras com localStorage
 
 # 3 - Loja - 2,5ptos (0,3 +/- cada)
 
-- <del>o tema da loja pode ser mudado para escolha do aluno e o arquivo json deve incluir mais 6 produtos.</del>
-- <del>as imagens devem estar baixadas no projeto e nao serem usadas como url.</del>
+- o tema da loja pode ser mudado para escolha do aluno e o arquivo json deve incluir mais 6 produtos.
+- as imagens devem estar baixadas no projeto e nao serem usadas como url.
 - o Bootstrap deve ser retirado do projeto e a estilizacao dos cards da loja devem ser feitos via CSS.
 - descobrir o porque os produtos nao aparecem na loja.
 - um alerta ou modal deve ser criado para validar a ação do usuario em incluir um produto no carrinho.
