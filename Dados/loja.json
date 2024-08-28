@@ -3,24 +3,72 @@
     "id": 1,
     "status": false,
     "nome": "Playstation 5",
-    "valor": 10.0,
+    "valor": 3799.91,
     "quantidade": 5,
-    "imagem": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+    "imagem": "../Imagens/Playstation 5 img.webp"
   },
   {
     "id": 2,
     "status": false,
     "nome": "Nintendo Switch",
-    "valor": 20.0,
+    "valor": 1890.00,
     "quantidade": 8,
-    "imagem": "https://bebgames.com.br/wp-content/uploads/2022/07/image-removebg-preview-41.png"
+    "imagem": "../Imagens/Nintendo Switch img.png"
   },
   {
     "id": 3,
     "status": false,
     "nome": "Meta Quest 2",
-    "valor": 30.0,
+    "valor": 3909.00,
     "quantidade": 6,
-    "imagem": "https://i.ebayimg.com/images/g/xrcAAOSwmhphZGzf/s-l500.png"
+    "imagem": "../Imagens/Meta Quest 2 img.png"
+  },
+  {
+    "id": 4,
+    "status": false,
+    "nome": "Processador Intel Core I9 14900KF 14ª Geração",
+    "valor": 4603.60,
+    "quantidade": 10,
+    "imagem": "../Imagens/Processador Intel Core I9 14900KF 14ª Geração img.webp"
+  },
+  {
+    "id": 5,
+    "status": true,
+    "nome": "Processador Intel Core i3 10105F Box 10ª Geração",
+    "valor": 454.41,
+    "quantidade": 0,
+    "imagem": "../Imagens/Processador Intel Core i3 10105F Box 10ª Geração img.jpg"
+  },
+  {
+    "id": 6,
+    "status": false,
+    "nome": "Placa de Vídeo RTX 4090",
+    "valor": 12899.99,
+    "quantidade": 35,
+    "imagem": "../Imagens/Placa de Vídeo RTX 4090 img.jpeg"
+  },
+  {
+    "id": 7,
+    "status": false,
+    "nome": "Placa de Video Galax GeForce GTX 1650",
+    "valor": 899.99,
+    "quantidade": 2,
+    "imagem": "../Imagens/Placa de Video Galax GeForce GTX 1650 img.jpg"
+  },
+  {
+    "id": 8,
+    "status": false,
+    "nome": "Dell memória atualização - 32 Gb",
+    "valor": 5819.00,
+    "quantidade": 12,
+    "imagem": "../Imagens/Dell memória atualização - 32 Gb img.webp"
+  },
+  {
+    "id": 9,
+    "status": false,
+    "nome": "Memória de 16GB DIMM DDR4 3200Mhz",
+    "valor": 279.90,
+    "quantidade": 1,
+    "imagem": "../Imagens/Memória de 16GB DIMM DDR4 3200Mhz img.jpg"
   }
 ]
