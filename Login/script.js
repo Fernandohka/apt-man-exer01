@@ -38,3 +38,13 @@ function login() {
 function fechar() {
   document.getElementById("modal").style.display = "none";
 }
+
+function toggleimg(){
+  let input = document.getElementById("senha");
+  if(input.type == "password"){
+    input.setAttribute("type", "text");
+  }
+  else {
+    input.setAttribute("type", "password");
+  }
+}

@@ -54,3 +54,11 @@ input {
     padding: 10px;
     justify-content: center;
 }
+
+.chave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+}
