@@ -13,6 +13,12 @@ function login() {
 
     window.location.href = "../Loja/loja.html";
   } else {
-    //logica para se o nome e senha forem incorretos
+    const body = document.getElementById("body");
+
+    const modal = document.createElement("div");
+    modal.className = "modal";
+    modal.textContent = "Login ou Senha Incorreto";
+
+    body.appendChild(modal);
   }
 }

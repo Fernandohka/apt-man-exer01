@@ -38,3 +38,17 @@ input {
   padding: 5px;
   border: 2px solid #909090;
 }
+
+.modal {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
