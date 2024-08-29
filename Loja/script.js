@@ -25,17 +25,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "img";
 
         const cardBody = document.createElement("div");
-        cardBody.className = "card-body";
+        cardBody.className = "centro";
 
         const cardTitle = document.createElement("h5");
-        cardTitle.className = "card-title";
         cardTitle.textContent = produto.nome;
 
         const cardText = document.createElement("p");
-        cardText.className = "card-text";
         cardText.textContent = "Preço: $" + produto.valor.toFixed(2);
 
         const btnAdicionarAoCarrinho = document.createElement("a");
