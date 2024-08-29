@@ -39,10 +39,11 @@ input {
   border: 2px solid #909090;
 }
 
-.modal {
-    display: flex;
+#modal {
+    display: none;
     position: absolute;
-    width: fit-content;
+    flex-wrap: wrap;
+    width: 170px;
     height: 100px;
     top: 50%;
     left: 50%;
@@ -51,4 +52,5 @@ input {
     border-radius: 10px;
     background-color: white;
     padding: 10px;
+    justify-content: center;
 }
