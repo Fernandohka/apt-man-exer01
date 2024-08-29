@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         cardText.textContent = "Preço: $" + produto.valor.toFixed(2);
 
         const btnAdicionarAoCarrinho = document.createElement("a");
-        btnAdicionarAoCarrinho.href = "#";
+        btnAdicionarAoCarrinho.setAttribute("onclick", "confirmacao()");
         btnAdicionarAoCarrinho.className =
           "btn btn-primary btn-adicionar-ao-carrinho";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
@@ -67,3 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 });
+
+function confirmacao(){
+  document.getElementById("modal").style.display = "flex";
+}
+
+function fechar(){
+  document.getElementById("modal").style.display = "none";
+}
+
+function sim(){
+  document.getElementById("modal").style.display = "none";
+}

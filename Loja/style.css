@@ -52,3 +52,19 @@
     max-height: 50%; 
     max-width: 100%;
 }
+
+#modal {
+    display: none;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+}
