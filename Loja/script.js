@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const cardBody = document.createElement("div");
         cardBody.className = "centro";
 
-        const cardTitle = document.createElement("h5");
+        const cardTitle = document.createElement("h2");
         cardTitle.textContent = produto.nome;
 
         const cardText = document.createElement("p");
