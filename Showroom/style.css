@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards {
+    display: flex; 
+    padding: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px; 
+    height: 400px; 
+    text-align: center; 
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(177, 252, 252);
+}
+
+.img {
+    max-height: 50%; 
+    max-width: 100%;
+}
+
+.bola {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

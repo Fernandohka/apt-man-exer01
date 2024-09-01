@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       produtos = data;
-      const produtosContainer =
-        document.getElementsByTagName("produtos-container");
+      const produtosContainer = 
+        document.getElementById("produtos-container");
 
-      produtos.map((produto, index) => {
+      produtos.forEach((produto, index) => {
         const card = document.createElement("div");
         card.className = "card";
         card.style.width = "18rem";
@@ -25,21 +25,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "img";
 
         const cardBody = document.createElement("div");
-        cardBody.className = "card-body";
+        cardBody.className = "centro";
 
-        const cardTitle = document.createElement("h5");
-        cardTitle.className = "card-title";
-        cardTitle.textContent = produto.descricao;
+        const cardTitle = document.createElement("h2");
+        cardTitle.textContent = produto.nome;
 
         const cardText = document.createElement("p");
-        cardText.className = "card-text";
-        cardText.textContent = "Preço: $" + produto.preco.toFixed(2);
+        cardText.textContent = "Preço: $" + produto.valor.toFixed(2);
 
         const btnAdicionarAoCarrinho = document.createElement("a");
-        btnAdicionarAoCarrinho.href = "#";
+        btnAdicionarAoCarrinho.setAttribute("onclick", "confirmacao()");
         btnAdicionarAoCarrinho.className =
           "btn btn-primary btn-adicionar-ao-carrinho";
         btnAdicionarAoCarrinho.textContent = "Adicionar ao Carrinho";
@@ -69,3 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 });
+
+function confirmacao(){
+  document.getElementById("modal").style.display = "flex";
+}
+
+function fechar(){
+  document.getElementById("modal").style.display = "none";
+}
+
+function sim(){
+  document.getElementById("modal").style.display = "none";
+}

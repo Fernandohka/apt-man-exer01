@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  .idPerfil {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  @media (width <= 900px) {
+    .center {
+      justify-content: center;
+      gap: 2vh;
+    }
+  }
+
+.cards {
+    display: flex; 
+    padding: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px; 
+    height: 400px; 
+    text-align: center; 
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(177, 252, 252);
+    padding: 10px;
+}
+
+.img {
+    max-height: 50%; 
+    max-width: 100%;
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+}
